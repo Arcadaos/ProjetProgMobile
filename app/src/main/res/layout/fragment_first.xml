@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#02989E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adresse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adresse"
+                android:textColor="#212121"
+                android:translationX="175dp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/universit_du_quebec_chicoutimi"
+                android:textColor="#212121"
+                android:translationX="100dp" />
+
+            <TextView
+                android:id="@+id/background2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#026D9E"
+                android:translationY="25dp" />
+
+            <TextView
+                android:id="@+id/promo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gagne_5_de_cr_dit_pour_tes_premiers_plats_sauv_s"
+                android:textColor="#EDE7F6"
+                android:translationX="40dp"
+                android:translationY="-55dp" />
+
+            <TextView
+                android:id="@+id/promo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sauvez_de_la_nourriture_et_faites_des_conomies"
+                android:textColor="#EDE7F6"
+                android:translationX="50dp"
+                android:translationY="-40dp" />
+
+            <TextView
+                android:id="@+id/background3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#02369E"
+                android:translationY="50dp" />
+
+            <TextView
+                android:id="@+id/proxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/les_offres_proximit"
+                android:textColor="#EDE7F6"
+                android:translationX="40dp"
+                android:translationY="-220dp" />
+
+            <ImageButton
+                android:id="@+id/proxy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image_1"
+                android:translationX="50dp"
+                android:translationY="-185dp"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/proxy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image_2"
+                android:translationX="220dp"
+                android:translationY="-312dp"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/nom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/la_bonne_patate"
+                android:textColor="#EDE7F6"
+                android:translationX="20dp"
+                android:translationY="-310dp" />
+
+            <TextView
+                android:id="@+id/nom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iga"
+                android:textColor="#EDE7F6"
+                android:translationX="210dp"
+                android:translationY="-329dp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_6_0_7km"
+                android:textColor="#EDE7F6"
+                android:translationX="20dp"
+                android:translationY="-325dp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_3_1_3km"
+                android:textColor="#EDE7F6"
+                android:translationX="210dp"
+                android:translationY="-344dp" />
+
+            <Button
+                android:id="@+id/button_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
