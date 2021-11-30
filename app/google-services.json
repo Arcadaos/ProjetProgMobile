@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978060750970",
+    "project_id": "sharetovers-6b6f7",
+    "storage_bucket": "sharetovers-6b6f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978060750970:android:e667462b1fef75801f8bc3",
+        "android_client_info": {
+          "package_name": "com.example.sharetovers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978060750970-s0t4mr01u5mk44hocuf7obc272e2vrag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ZGSKAFQ14T5FyVTSsgMAnulfZjyqw5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978060750970-s0t4mr01u5mk44hocuf7obc272e2vrag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
