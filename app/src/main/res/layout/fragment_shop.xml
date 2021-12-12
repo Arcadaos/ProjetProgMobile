@@ -41,7 +41,7 @@
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         android:textColor="#EDE7F6"
-        android:translationY="50dp"
+        android:translationY="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -57,7 +57,7 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
-        android:translationY="100dp"
+        android:translationY="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username3" />
@@ -68,24 +68,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:enabled="false"
-        android:text="sign_in"
-        android:translationX="150dp"
-        android:translationY="150dp"
+        android:text="save information"
+        android:translationX="100dp"
+        android:translationY="410dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password3" />
-
-    <TextView
-        android:id="@+id/or"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="or"
-        android:textSize="20sp"
-        android:translationX="185dp"
-        android:translationY="200dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login4" />
 
     <EditText
         android:id="@+id/lastName"
@@ -95,7 +83,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
-        android:translationY="230dp"
+        android:translationY="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/or2" />
@@ -108,23 +96,10 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
-        android:translationY="280dp"
+        android:translationY="250dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lastName2" />
-
-    <EditText
-        android:id="@+id/usernameN"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="email"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:selectAllOnFocus="true"
-        android:translationY="330dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstName2" />
 
     <EditText
         android:id="@+id/adressN"
@@ -134,53 +109,10 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
-        android:translationY="380dp"
+        android:translationY="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameN2" />
-
-    <EditText
-        android:id="@+id/passwordN"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="password"
-        android:imeActionLabel="actio sign in short"
-        android:imeOptions="actionDone"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:selectAllOnFocus="true"
-        android:translationY="430dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/adressN2" />
-
-    <EditText
-        android:id="@+id/passwordN2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Confirm password"
-        android:imeActionLabel="action sign in short"
-        android:imeOptions="actionDone"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:selectAllOnFocus="true"
-        android:translationY="480dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordN3" />
-
-    <EditText
-        android:id="@+id/city"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="City"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:selectAllOnFocus="true"
-        android:translationY="530dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordN4" />
 
     <EditText
         android:id="@+id/phone"
@@ -190,31 +122,16 @@
         android:inputType="phone"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
-        android:translationY="580dp"
+        android:translationY="350dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.187"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city2" />
 
-    <Button
-        android:id="@+id/login2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="25dp"
-        android:enabled="false"
-        android:text="register"
-        android:translationX="150dp"
-        android:translationY="610dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/background6" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/hello_blank_fragment"
+        android:visibility="invisible"/>
 
 </FrameLayout>
