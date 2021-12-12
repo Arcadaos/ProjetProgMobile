@@ -27,5 +27,10 @@
         tools:layout="@layout/fragment_search" />
 
     <fragment android:id="@+id/placeholder" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.sharetovers.map"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 
 </navigation>

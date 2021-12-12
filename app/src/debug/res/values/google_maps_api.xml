@@ -4,7 +4,7 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=86:41:75:43:E0:95:88:24:1E:51:56:42:A6:8C:A2:F9:19:4B:AF:29%3Bcom.example.sharetovers
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=16:A0:C6:15:C0:64:21:46:DD:06:A9:39:12:6D:3F:68:6E:63:84:12%3Bcom.example.sharetovers
 
     You can also add your credentials to an existing key, using these values:
 
@@ -12,7 +12,7 @@
     com.example.sharetovers
 
     SHA-1 certificate fingerprint:
-    86:41:75:43:E0:95:88:24:1E:51:56:42:A6:8C:A2:F9:19:4B:AF:29
+    16:A0:C6:15:C0:64:21:46:DD:06:A9:39:12:6D:3F:68:6E:63:84:12
 
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
@@ -20,5 +20,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB9n4hhhw9H_YQSaFLffVDKCQTTIcuX8fo</string>
 </resources>

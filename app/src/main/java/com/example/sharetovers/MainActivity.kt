@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.sharing, R.id.shop, R.id.hosting, R.id.map, R.id.search
             )
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
