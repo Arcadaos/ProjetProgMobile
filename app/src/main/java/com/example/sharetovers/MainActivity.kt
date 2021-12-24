@@ -1,5 +1,6 @@
 package com.example.sharetovers
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -26,11 +27,16 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.sharing, R.id.shop, R.id.hosting, R.id.map, R.id.search
+                R.id.sharing, R.id.shop, R.id.hosting, R.id.searchMap, R.id.search
             )
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    fun goToMap(item: android.view.MenuItem) {
+        val intent = Intent(this, SearchMap::class.java)
+        startActivity(intent)
     }
 }

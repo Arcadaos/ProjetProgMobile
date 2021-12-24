@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.SearchView
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -17,10 +18,15 @@ import com.google.android.gms.maps.model.MarkerOptions
 class map : Fragment() {
 
     private val callback = OnMapReadyCallback { googleMap ->
-        val sydney = LatLng(-34.0, 151.0)
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val uqac = LatLng(48.419359677106684, -71.05265833138259)
+        googleMap.addMarker(MarkerOptions().position(uqac).title("Université du Québec A Chicoutimi"))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(uqac))
     }
+
+    private var searchView: SearchView? = null
+
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
